@@ -1,0 +1,138 @@
+body {
+    background-image: url("wallp.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    color: darkblue;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+nav ol {
+    list-style-type: none;
+}
+
+nav ol li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 25px;
+
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkorange;
+}
+a:active{
+    color: red;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+    color: darkblue;
+    font-weight: 900;
+}
+
+.PictureRight {
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgrey;
+    box-shadow: 20px -20px 5px grey;
+}
+
+.PictureLeft {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgrey;
+    box-shadow: -20px -20px 5px grey;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+
+}
+
+.wallp1 {
+    background-color: rgba(255, 255, 205, 0.6);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.wallp2 {
+    background-color: rgba(255, 182, 193, 0.6);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 300px;
+}
+
+.wallp3 {
+    background-color: rgba(255, 222, 173, 0.6);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 300px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer ol {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ol li {
+    display: inline;
+    margin-right: 100px;
+
+}
+
+footer img {
+    width: 100px;
+    border: 2px solid lightgrey;
+    border-radius: 100px;
+}
+
+footer p {
+    text-align: right;
+    margin-right: 10px;
+    color: darkcyan;
+}
+
+b {
+    font-style: oblique;
+    color: darkblue;
+}
+
+mark {
+    background-color: pink;
+    font-weight: bold;
+}
+
